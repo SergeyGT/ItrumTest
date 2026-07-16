@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS wallet (
+    id UUID PRIMARY KEY,
+    balance NUMERIC(19,2) NOT NULL DEFAULT 0,
+    version BIGINT NOT NULL
+);
